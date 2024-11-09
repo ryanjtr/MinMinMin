@@ -5,7 +5,7 @@ const yourDate = new Date("2022-10-29T00:00:00"),
 // Hàm kiểm tra ngày và đổi nền nếu là ngày Giáng sinh
 function checkChristmasBackground() {
       const today = new Date();
-      const isChristmas = today.getMonth() === 10 && today.getDate() === 9; // Tháng 11 là tháng 12 (vì getMonth() trả giá trị từ 0-11)
+      const isChristmas = today.getMonth() === 11 && today.getDate() === 24; // Tháng 11 là tháng 12 (vì getMonth() trả giá trị từ 0-11)
 
       if (isChristmas) {
             document.body.style.backgroundImage = "url('background/christmast_bg.png')";
