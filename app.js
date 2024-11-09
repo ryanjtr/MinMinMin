@@ -21,7 +21,6 @@ function checkChristmasBackground() {
             document.querySelector("footer").style.color = "white"; // Đổi màu chữ "Thank you...." sang màu trắng
             document.querySelector("#heart").style.color = "white"; // Đổi màu chữ "Lê Dương Minh" sang màu trắng
 
-
             // Thêm phần sleigh vào trang
             const sleighSection = document.createElement("section");
             sleighSection.classList.add("sleigh");
