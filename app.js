@@ -13,7 +13,7 @@ function checkChristmasBackground() {
             document.querySelector("audio").setAttribute("src", `music/${christmasMusic[Math.floor(Math.random() * christmasMusic.length)]}.mp3`); // Phát nhạc Giáng sinh
 
             // Đổi màu chữ cho các phần tử cụ thể
-            document.querySelector("h1").textContent = "MERRY CHRISTMAST"; // Thay đổi nội dung của phần tử chứa "LOVE DAYS"
+            document.querySelector("h1").textContent = "MERRY CHRISTMAS"; // Thay đổi nội dung của phần tử chứa "LOVE DAYS"
             document.querySelector("h1").style.fontWeight = "bold";//In đậm nó lên
             document.querySelector("h1").style.color = "white"; // Đổi màu chữ "MERRY CHRISTMAS" sang màu trắng
             document.querySelector("#info .one p").style.color = "white"; // Đổi màu chữ "Đặng Kiến Quốc" sang màu trắng

@@ -6,7 +6,7 @@ body {
       height: 100%;
       /*Thêm dòng này */
       position: relative;
-      overflow: hidden;
+      /* overflow: hidden; */
       /* Đảm bảo tuyết không bị cắt ngoài màn hình */
 }
 
