@@ -7,7 +7,7 @@ function checkChristmasBackground() {
       const today = new Date();
       const isChristmas = today.getMonth() === 10 && today.getDate() === 9; // Tháng 11 là tháng 12 (vì getMonth() trả giá trị từ 0-11)
 
-      if (1) {
+      if (isChristmas) {
             document.body.style.backgroundImage = "url('background/christmast_bg.png')";
             document.body.style.backgroundSize = "cover";  // Đảm bảo ảnh nền bao phủ toàn bộ trang
             document.querySelector("audio").setAttribute("src", `music/${christmasMusic[Math.floor(Math.random() * christmasMusic.length)]}.mp3`); // Phát nhạc Giáng sinh
