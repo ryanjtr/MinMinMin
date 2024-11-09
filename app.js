@@ -5,9 +5,9 @@ const yourDate = new Date("2022-10-29T00:00:00"),
 // Hàm kiểm tra ngày và đổi nền nếu là ngày Giáng sinh
 function checkChristmasBackground() {
       const today = new Date();
-      const isChristmas = today.getMonth() === 11 && today.getDate() === 9; // Tháng 11 là tháng 12 (vì getMonth() trả giá trị từ 0-11)
+      const isChristmas = today.getMonth() === 10 && today.getDate() === 9; // Tháng 11 là tháng 12 (vì getMonth() trả giá trị từ 0-11)
 
-      if (isChristmas) {
+      if (1) {
             document.body.style.backgroundImage = "url('background/christmast_bg.png')";
             document.body.style.backgroundSize = "cover";  // Đảm bảo ảnh nền bao phủ toàn bộ trang
             document.querySelector("audio").setAttribute("src", `music/${christmasMusic[Math.floor(Math.random() * christmasMusic.length)]}.mp3`); // Phát nhạc Giáng sinh
