@@ -5,8 +5,9 @@ body {
       padding: 0;
       height: 100%;
       overflow-y: auto;
+      overflow-x: hidden;
       position: relative;
-      overflow: hidden;
+      /* overflow: hidden; */
 }
 
 /*--------------------------------Christmast effect snow-----------------------*/
@@ -514,5 +515,39 @@ footer {
             font-size: 1.2rem;
             margin: 0;
             padding-bottom: 2rem;
+      }
+}
+
+/* Responsive cho thiết bị nhỏ (máy tính bảng và điện thoại) */
+@media (max-width: 768px) {
+      .avt {
+            width: 80px;
+            height: 80px;
+      }
+
+      #clock-box date,
+      #clock-box time {
+            font-size: 1.5em;
+      }
+}
+
+/* Responsive cho điện thoại (màn hình nhỏ hơn 480px) */
+@media (max-width: 480px) {
+      h1 {
+            font-size: 1.5em;
+      }
+
+      #clock-box date,
+      #clock-box time {
+            font-size: 1.2em;
+      }
+
+      .avt {
+            width: 60px;
+            height: 60px;
+      }
+
+      #heart {
+            font-size: 1.5em;
       }
 }
