@@ -4,7 +4,7 @@ body {
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow-y: auto;
+      overflow-y: scroll;
       overflow-x: hidden;
       position: relative;
       /* overflow: hidden; */
@@ -484,6 +484,7 @@ footer {
       position: fixed;
       top: 0;
       left: 0;
+
 }
 
 @media (max-width: 992px) {
@@ -525,10 +526,10 @@ footer {
             height: 80px;
       }
 
-      #clock-box date,
+      /* #clock-box date,
       #clock-box time {
             font-size: 1.5em;
-      }
+      } */
 }
 
 /* Responsive cho điện thoại (màn hình nhỏ hơn 480px) */
@@ -537,10 +538,10 @@ footer {
             font-size: 1.5em;
       }
 
-      #clock-box date,
+      /* #clock-box date,
       #clock-box time {
             font-size: 1.2em;
-      }
+      } */
 
       .avt {
             width: 60px;
